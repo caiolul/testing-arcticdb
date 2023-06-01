@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "testing-arcticdb"
+version = "0.1.0"
+description = ""
+authors = ["caiolul <caiolucena.il@gmail.com>"]
+readme = "README.md"
+packages = [{include = "testing_arcticdb"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+arcticdb = "^1.2.1"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
